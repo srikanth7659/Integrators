@@ -17,6 +17,6 @@ CREATE COMPUTE MODULE test_Compute
 	END;
 
 	CREATE PROCEDURE CopyEntireMessage() BEGIN
-		SET OutputRoot.json.data.response = InputRoot.xmlnsc.customerDetails;
+		SET OutputRoot.json.data.response = InputRoot.xmlnsc.customerDetails.hhgugcvghbvytcugfty;
 	END;
 END MODULE;
