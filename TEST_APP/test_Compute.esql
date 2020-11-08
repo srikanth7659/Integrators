@@ -1,9 +1,7 @@
-
-
 CREATE COMPUTE MODULE test_Compute
 	CREATE FUNCTION Main() RETURNS BOOLEAN
 	BEGIN
-		-- CALL CopyMessageHeaders();
+		CALL CopyMessageHeaders();
 		  CALL CopyEntireMessage();
 		RETURN TRUE;
 	END;
