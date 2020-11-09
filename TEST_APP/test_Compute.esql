@@ -6,6 +6,8 @@ CREATE COMPUTE MODULE test_Compute
 	END;
 	CREATE PROCEDURE CopyEntireMessage() BEGIN
 		SET OutputRoot.json.data = InputRoot;
+			--	SET OutputRoot.json.data = InputRoot;
+
 		
 		
 	END;
